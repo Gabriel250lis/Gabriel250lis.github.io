@@ -1,0 +1,25 @@
+#cabecalho {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.centralizar {
+    text-align: center;
+}
+header {
+    background-color: cornflowerblue;
+}
+footer {
+    background-color: cornflowerblue;
+}
+body {
+    background-color: dimgrey;
+    clear: both;
+}
+article {
+    margin: 10px;
+    background-color: burlywood;
+}
+#noticia {
+    display: flex;
+}
