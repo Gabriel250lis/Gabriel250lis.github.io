@@ -2,6 +2,7 @@
    display: flex;
    flex-direction: row;
    justify-content: space-around;
+   list-style-type: none;
 }
 .centralizar {
     text-align: center;
@@ -22,4 +23,28 @@ article {
 }
 #noticia {
     display: flex;
+}
+li:hover {
+    background-color: crimson;
+    cursor: pointer;
+}
+h1 {
+    animation: cor 1s linear infinite;
+}
+@keyframes cor{
+    0%{
+        color: black;
+    }
+    25%{
+        color: darkslategray;
+    }
+    50%{
+        color: aquamarine;
+    }
+    75%{
+        color: mediumpurple;
+    }
+    100%{
+        color: indigo;
+    }
 }
